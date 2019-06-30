@@ -28,9 +28,9 @@ while continue_game != 'n':
     numb_chances = numbers_of_try
     while words_to_find!=find_word and numb_chances>0:
         print("Word to find {0} (chance {1} left)".format(words_to_find, numb_chances))
-        letter = retrieve_letter
+        letter = retrieve_letter()
         if letter in find_letters: # letter already choose
-            print("letters already choosen.")
+            print("letter already choosen.")
         elif letter in words_to_find: # letter is in the word to find
             find_letters.append(letter)
             print("good game!")
