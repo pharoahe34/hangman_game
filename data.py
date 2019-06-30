@@ -3,7 +3,7 @@
 # liste of words for the game
 words_list = [
     "football",
-    "victoire",
+    "victory",
     "glass",
     "hello",
     "gorgeous"
