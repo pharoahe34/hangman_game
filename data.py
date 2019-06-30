@@ -10,5 +10,5 @@ words_to_find = [
 ]
 # number of try
 numbers_of_try = 8
-# dictionary of player
-scores_file = "scores"
+# file that keep a backup of scores
+my_scores_file = "scores"
