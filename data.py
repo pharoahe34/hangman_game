@@ -1,7 +1,7 @@
 """This files defined few data for the hangman game """
 # settings
 # liste of words for the game
-words_to_find = [
+words_list = [
     "football",
     "victoire",
     "glass",
