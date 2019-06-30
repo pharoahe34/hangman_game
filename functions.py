@@ -65,7 +65,7 @@ def retrieve_letter():
 def choose_a_word():
     """This function returns the word chossen in the words_to_find list"""
 
-    return choice(words_to_find)
+    return choice(words_list)
 
 def retrieve_hidden_word(full_word, found_letter):
     """This function returns a hidden word. 
