@@ -2,7 +2,7 @@
 import os
 import pickle
 import time
-from random import choice
+import random
 from data import *
 
 # score management
@@ -57,7 +57,7 @@ def retrieve_letter():
         return retrieve_letter
     else:
         print("Let's see...")
-        time.sleep(2)
+        time.sleep(1)
         return letter
 
 # game function
@@ -65,7 +65,7 @@ def retrieve_letter():
 def choose_a_word():
     """This function returns the word chossen in the words_to_find list"""
 
-    return choice(words_list)
+    return random.choice(words_list)
 
 def retrieve_hidden_word(full_word, found_letter):
     """This function returns a hidden word. 
