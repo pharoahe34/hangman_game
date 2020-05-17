@@ -1,6 +1,6 @@
-# Hangman_game
+# Hangman game
 
-![alt text](tamara-gore-unsplash.jpg "Hangman")
+![alt text](tamara-gore-unsplash.jpg =250x "Hangman")
 Photo by Tamara Gore on Unsplash
 This is a Python script of the classic game "Hangman".
 The word to guess is represented by a row of dashes.
