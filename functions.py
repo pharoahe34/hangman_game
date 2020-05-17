@@ -40,11 +40,11 @@ def retrieve_user_name():
     user_name = input("What is your name? ")
     # fisrt lettre in capital and the others in lower case
     user_name = user_name.capitalize()
-    if not user_name.isalnum() or len(user_name) < 4:
+    if not user_name.isalnum() or len(user_name) < 2:
         print("Invalid name")
         # we call the function again
         return retrieve_user_name()
-    print("Hello,.{} \nTime to play hangman!".format(user_name))
+    print(f"Hello, {user_name} \nTime to play hangman!")
     time.sleep(1)
     return user_name
 
