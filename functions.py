@@ -44,10 +44,9 @@ def retrieve_user_name():
         print("Invalid name")
         # we call the function again
         return retrieve_user_name()
-    else:
-        print("Hello,.{} \nTime to play hangman!".format(user_name))
-        time.sleep(1)
-        return user_name
+    print("Hello,.{} \nTime to play hangman!".format(user_name))
+    time.sleep(1)
+    return user_name
 
 
 def retrieve_letter():
@@ -59,10 +58,9 @@ def retrieve_letter():
     if len(letter) > 1 or not letter.isalpha():
         print("You don't enter a correct input.")
         return retrieve_letter
-    else:
-        print("Let's see...")
-        time.sleep(1)
-        return letter
+    print("Let's see...")
+    time.sleep(1)
+    return letter
 
 
 # game function
@@ -75,7 +73,7 @@ def choose_a_word():
 
 
 def retrieve_hidden_word(full_word, found_letter):
-    """This function returns a hidden word. 
+    """This function returns a hidden word.
     The hidden letters are marked with an asterisk *."""
 
     hidden_word = ""
