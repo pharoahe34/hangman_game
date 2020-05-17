@@ -57,7 +57,7 @@ def retrieve_letter():
     letter = letter.lower()
     if len(letter) > 1 or not letter.isalpha():
         print("You don't enter a correct input.")
-        return retrieve_letter
+        return retrieve_letter()
     print("Let's see...")
     time.sleep(1)
     return letter
